@@ -28,13 +28,12 @@ public class Elements {
         panel.add(textField);
     }
 
-    // Добавление кнопки
+    //Добавление кнопки
     static void setButtons(JButton button, JPanel panel, int x, int y, Font font) {
         button.setBounds(x, y, 475, 200);
         button.setFont(font);
         panel.add(button);
     }
-
     // Ограничивание ввода только цифр
     public static void setNumericOnly(JTextField jTextField) {
         jTextField.addKeyListener(new KeyAdapter() {
