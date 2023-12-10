@@ -20,7 +20,7 @@ public class Elements {
         label.setForeground(java.awt.Color.WHITE);
         label.setFont(font1);
         panel.add(label);
-    }
+    )
 
     // Добавление текстовых полей
     static void setTextFields(JTextField textField, JPanel panel, int y) {
