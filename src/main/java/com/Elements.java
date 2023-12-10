@@ -20,7 +20,7 @@ public class Elements {
         label.setForeground(java.awt.Color.WHITE);
         label.setFont(font1);
         panel.add(label);
-    )
+    }
 
     // Добавление текстовых полей
     static void setTextFields(JTextField textField, JPanel panel, int y) {
@@ -28,12 +28,13 @@ public class Elements {
         panel.add(textField);
     }
 
-    //Добавление кнопки
+    // Добавление кнопки
     static void setButtons(JButton button, JPanel panel, int x, int y, Font font) {
         button.setBounds(x, y, 475, 200);
         button.setFont(font);
         panel.add(button);
     }
+
     // Ограничивание ввода только цифр
     public static void setNumericOnly(JTextField jTextField) {
         jTextField.addKeyListener(new KeyAdapter() {
@@ -49,6 +50,3 @@ public class Elements {
         });
     }
 }
-
-
-
